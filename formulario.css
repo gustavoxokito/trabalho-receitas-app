@@ -1,0 +1,48 @@
+body{
+    background-image: url(img/fundo-form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.atual{
+    font-family: cursive,sans-serif ;
+}
+
+a{
+    font-family: cursive,sans-serif ;
+}
+
+
+/*Corpo Formulario*/
+h1{
+    font-family: cursive,sans-serif ;
+    color: rgba(255,255,255,0.7);
+}
+
+form{
+    font-family: sans-serif;
+    font-style: italic;
+    color: #fff
+}
+
+.row{
+    display: flex;
+    box-sizing: border-box;
+}
+input {
+    display: block;
+    height: 22px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px 10px;
+  }
+
+  footer{
+    background-color: rgba(0,0,0,0.7);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+}

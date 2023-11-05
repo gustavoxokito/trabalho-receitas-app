@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(img/background-home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center ;
+    
+}
+
+
+.atual{
+    font-family: cursive,sans-serif ;
+}
+
+a{
+    font-family: cursive,sans-serif ;
+}
+
+/* Estilo dos cards*/
+
+.card{
+    margin: 20px; /* espaço entre os cards de 20px*/
+    font-style: italic;
+    font-family: cursive,sans-serif;
+    color: rgba(0,0,0,0.7);
+}
+
+.card h5 {
+    text-align: center; /*Texto dos card ao centro*/
+}
+
+
+footer{
+    background-color: rgba(0,0,0,0.7);
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+}
